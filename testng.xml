@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM http://testng.org/testng-1.0.dtd>
+        <suite name="All Test Suite">
+        <listeners>
+        <listener class-name="listners.ScreenshotListners"></listener>
+        </listeners>
+        <test name="TeliaTest">
+        <classes>
+        <class name="java.tests.LoginPageTest"/>
+        <class name="java.tests.SearchPageTest"/>
+        <class name="java.tests.SetGoalPageTest"/>
+        <class name="java.tests.AddWorkspaceTest"/>
+
+        </classes>
+        </test>
+        </suite>
